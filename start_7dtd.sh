@@ -58,7 +58,7 @@ else
 fi
 
 # Fix ownership
-chown -R $(whoami):$(whoami) /steamcmd/7dtd
+chown -R $(whoami):$(whoami) /steamcmd /app
 
 # Install/update steamcmd
 echo "Installing/updating steamcmd.."
